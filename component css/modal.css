@@ -1,0 +1,24 @@
+.modal-container {
+  text-align: center;
+  width: 20rem;
+  height: 15rem;
+  background-color: aliceblue;
+  position: relative;
+}
+.modal-items {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#example-modal-interstitial {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 30;
+  display: none;
+}
+#Modal {
+  position: relative;
+}

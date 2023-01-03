@@ -1,0 +1,86 @@
+:root{
+    --badge-icon-color: #229ED9;
+    --online-color: green;
+    --offline-color: red;
+    --standby-color: blueviolet;
+    --white-color: white;
+    --black-color: black;
+}
+
+.badge{
+    border-radius: 50%;
+}
+.badge-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.online-status{
+    position: absolute;
+    margin-top: 6rem;
+    margin-left: 7.7rem;
+    height: 0.8rem;
+    width: 0.8rem;
+    border: 2px solid var(--white-color);
+    background-color: var(--online-color);
+}
+.offline-status{
+    margin-left: 6rem;
+    margin-top: 5rem;
+    position: absolute;
+    height: 0.8rem;
+    width: 0.8rem;
+    border: 2px solid var(--white-color);
+    background-color: var(--offline-color);
+}
+.standby-status{
+    position: absolute;
+    margin-left: 4.8rem;
+    margin-top: 3.4rem;
+    height: 0.8rem;
+    width: 0.8rem;
+    border: 2px solid var(--white-color);
+    background-color: var(--standby-color);
+}
+#dnd-status{
+    position: absolute;
+    font-size: 0.8rem;
+    margin-top: 2rem;
+    margin-left: 3.4rem;
+    color: var(--offline-color);
+    border: 2px solid var(--white-color);
+    background-color: var(--black-color);
+    border-radius: 50%;
+}
+.fa-shopping-cart{
+    font-size: 2rem;
+    color: var(--badge-icon-color);
+}
+.fa-paper-plane{
+    font-size: 3rem;
+    color: var(--white-color);
+    background-color: var(--badge-icon-color);
+    border-radius: 50%;
+}
+.badge-icon{
+    border-radius: 50%;
+    color: var(--white-color);
+    width: 1rem;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    border: 2px solid var(--white-color);
+    background-color: var(--primary-color);
+}
+.badge-shopping-cart{
+    position: absolute;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+.gap-10{
+    gap: 10rem;
+}

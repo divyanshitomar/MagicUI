@@ -1,0 +1,27 @@
+:root{
+    --rating-color: #f4b83f;
+}
+.rating-outputs{
+    display: flex;
+    flex-direction: row;
+    gap: 0.3rem;
+
+}
+
+.rating-outputs .fa-star{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.rated{
+    color: var(--rating-color);
+}
+
+.unrated{
+    color: var(--secondary-color);
+}
+
+.unrated:hover{
+    color: var(--rating-color);
+}
+

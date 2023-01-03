@@ -1,0 +1,55 @@
+.success{
+    color: green;
+}
+.error{
+    color: red;
+}
+.warning{
+    color: orange;
+}
+.primary{
+    color: blueviolet;
+}
+.main-alert-section > .component-intro li{
+    list-style: none;
+}
+.alert-box{
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+    border-radius: 0.2rem;
+    padding-left: 1rem;
+}
+
+.success-alert{ 
+    color: green;
+    background-color: rgba(2, 129, 2, 0.384);
+}
+.warning-alert{
+    color: orange;
+    background-color: rgba(255, 166, 0, 0.295);
+}
+.error-alert{
+    color: red;
+    background-color: rgba(255, 0, 0, 0.219);
+}
+.alert-icon{
+    margin-right: 0.5rem;
+}
+.primary-alert{
+    color: blueviolet;
+    background-color: rgba(137, 43, 226, 0.397);
+}
+#alert-close-btn{
+    /* background-color: blue; */
+    /* right: 0; */
+
+    color: black;
+    font-size: 1.2rem;
+    cursor: pointer;
+    position: absolute;
+    right: 5rem;
+}
+#alert-close-btn:hover{
+    color: red;
+}

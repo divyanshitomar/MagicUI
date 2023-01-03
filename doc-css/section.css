@@ -1,0 +1,10 @@
+.section-main{
+    grid-area: section;
+    padding: 1rem;
+}
+
+.component-intro{
+    padding: 1rem;
+    padding-top: 0rem;
+    border-radius: 5px;
+}

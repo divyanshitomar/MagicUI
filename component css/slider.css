@@ -1,0 +1,30 @@
+
+.slider-container {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+.slider-style {
+    -webkit-appearance: none;
+    cursor: pointer;
+    background-color: var(--secondary-color);
+    width: 8rem;
+}
+.slider-tag {
+    width: 8.8rem;
+    display: flex;
+    justify-content: space-between;
+}
+.slider-tag-value {
+    font-size: smaller;
+    color: var(--dark-seocndary-color);
+}
+
+.slider-style::-webkit-slider-thumb {
+    background: var(--primary-color); 
+    -webkit-appearance: none; 
+    appearance: none;
+    width: 1rem;
+    height: 1rem;
+  }
+  

@@ -1,0 +1,80 @@
+:root{
+    --searchbar-color: rgba(172, 172, 172, 0.205);
+    --badge-red-color: #ff0000;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    height: 10vh;
+}
+.brand-name{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+    width: fit-content;
+    margin: 1rem;
+}
+.small-logo{
+    width: 2rem;
+    height: 2rem;
+}
+.font-lg{
+    font-size: 1.5rem;
+}
+.searchbar button{
+    border: none;
+}
+.searchbar-style{
+    color: gray;
+}
+
+.inputbox-style{
+    border: none;
+    background-color: var(--searchbar-color);
+    width: 100%;
+}
+.searchbar{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 2rem;
+    flex-grow: 1;
+    max-width: 18rem;
+}
+.cta-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+.cta-button .far{
+    font-size: 1.2rem;
+    color: black;
+}
+.icon-label-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* flex-direction: column; */
+}
+
+
+.badge-icon-card{
+    position: absolute;
+    margin-top: -0.4rem;
+    margin-left: 1.4rem;
+    font-size: 10px;
+    color: var(--white-color);
+    background-color: var(--badge-red-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15px;
+    height: 15px;
+}

@@ -1,0 +1,56 @@
+.toast{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+    width: 15rem;
+}
+.fal{
+    cursor: pointer;
+    font-size: x-large;
+    padding: 0.5rem;
+    margin-left: 1rem;
+}
+.fal:hover{
+    color: var(--black-color);
+}
+.toast-success,.btn-close{
+    color: green;
+    background-color: rgba(106, 188, 68, 0.855);
+}
+.toast-error,.btn-close{
+    color: red;
+    background-color: rgba(255, 0, 0, 0.437);
+}
+#toast-example-success{
+    position: fixed;
+    text-align: center;
+    right: 20%;
+    left: 20%;
+    bottom: 5%;
+    z-index: 10;
+    display: none;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+  }
+  
+  @keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  } 

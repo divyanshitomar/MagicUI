@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import "./doc-css/nav.css";
+@import "./doc-css/footer.css";
+@import "./doc-css/side-bar.css";
+@import "./doc-css/section.css";
+@import "./doc-css/home.css";
+@import "./component css/avatar.css";
+@import "./component css/button.css";
+@import "./component css/alert.css";
+@import "./component css/badge.css";
+@import "./component css/card.css";
+@import "./component css/image.css";
+@import "./component css/Input.css";
+@import "./component css/rating.css";
+@import "./component css/text_utility.css";
+@import "./component css/navbar.css";
+@import "./component css/slider.css";
+@import "./component css/lists.css";
+@import "./component css/grid.css";
+@import "./component css/toast.css";
+@import "./component css/modal.css";
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0rem;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #eb5eeb;
+  --hover-primary-color: #fc2efc;
+  --secondary-color: #80808044;
+  --hover-secondary-color: #8080807c;
+  --dark-secondary-color: gray;
+  --component-hover-color: #f1f1f1;
+}
+.body-grid-items {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-template-areas:
+    "header header"
+    "progress_bar progress_bar"
+    "sidebar section "
+    "sidebar section "
+    "sidebar section "
+    "footer footer ";
+  max-width: 100vw;
+  width: 100%;
+}
+.intro-font-weight {
+  font-size: larger;
+}
+.highlight {
+  font-weight: 600;
+  border-radius: 0.2rem;
+  color: var(--primary-color);
+  padding-right: 0.2rem;
+  padding-left: 0.2rem;
+}
+.component-outputs {
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 0.2rem;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  box-sizing: border-box;
+}
+
+.section-component {
+  padding: 1rem;
+  border-radius: 3px;
+  margin: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  box-sizing: border-box;
+}
+@media screen and (min-width: 750px) {
+  .hide-logo {
+    display: block;
+  }
+  .hamburger-menu {
+    display: none;
+  }
+  body {
+    background-color: var(--white-color);
+  }
+  .side-bar-main-mobile-view {
+    display: none;
+    height: 100vh;
+  }
+  .side-bar-main {
+    display: block;
+  }
+}
+@media screen and (max-width: 750px) {
+  .side-bar-main {
+    position: static;
+  }
+  .body-grid-items {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "header"
+      "progress_bar"
+      "section"
+      "footer";
+    width: 100%;
+    max-width: 100vw;
+  }
+  body {
+    width: 100%;
+    max-width: 100vw;
+  }
+  .side-bar-main {
+    display: none;
+  }
+  .side-bar-main-mobile-view {
+    display: none;
+  }
+  .hide-logo {
+    display: none;
+  }
+  .nav-button {
+    margin-left: 2rem;
+  }
+}
+
+.code-snippet iframe {
+  width: 100%;
+  max-height: 300px;
+  padding: 1rem 0;
+  background-color: #fafafa;
+  margin: 2rem 0;
+  border: 0;
+  transform: scale(1);
+  overflow: hidden;
+}
+.fa-code {
+  font-size: 2rem;
+}
+
+.floating-button {
+  z-index: 10;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  background-color: var(--primary-color);
+  font-size: 1.5rem;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  cursor: pointer;
+  color: white;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px 0px var(--primary-color);
+  transition: all 0.2s ease;
+}
+
+.floating-button:hover {
+  background-color: var(--hover-primary-color);
+  transform: translateY(-5px);
+  transition: transform 1s ease;
+}
+
+.floating-button i:nth-child(n) {
+  align-self: center;
+}
+.brand-logo {
+  font-family: "Syne Tactile", cursive;
+  color: var(--primary-color);
+  font-size: xx-large;
+  text-decoration: none;
+  padding-left: 1rem;
+}
+
+.installation-container {
+  display: flex;
+  padding: 1rem;
+}
+.installation-guide {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.installation-container > .code-snippet {
+  width: 50%;
+}
+
+.component-header {
+  margin-top: 0rem;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+#progress-bar {
+  grid-area: progress_bar;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #eb5eeb;
+  height: 0.2rem;
+}

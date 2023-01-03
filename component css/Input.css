@@ -1,0 +1,28 @@
+.form-feild{
+    border: 2px solid var(--primary-color);
+    border-radius: 2px;
+    width: 100%;
+}
+.input-container{
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+}
+.input-label{
+    padding: 0.5rem;
+    min-width: 7rem;
+}
+.input-box{
+    border: 2px solid var(--primary-color);
+    font-size: 1rem;
+    width: 100%;
+}
+.input-box:invalid{
+    border: 2px solid red;
+    background-color: red;
+}
+
+.input-box:focus{
+    border: 2px solid var(--primary-color);
+}
+

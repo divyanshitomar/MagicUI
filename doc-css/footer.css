@@ -1,0 +1,36 @@
+.footer-main{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    align-items: center;
+    grid-area: footer;
+    height: 6.7rem;
+    background-color: var(--black-color);
+    color: var(--white-color);
+}
+
+.footer-main div:nth-child(2){
+    margin-left: auto;
+    
+}
+.icon-container{
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-icon:hover{
+    color: var(--primary-color);
+    background-color: white;
+}
+
+.footer-icon{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--black-color);
+    background-color: var(--white-color);
+}

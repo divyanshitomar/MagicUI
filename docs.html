@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>MagicUI | Document</title>
+  </head>
+  <body>
+    <div class="body-grid-items">
+      <nav class="nav-bar-main">
+        <div class="hamburger-menu"><i class="fas fa-bars"></i></div>
+        <div class="nav-pills">
+          <a class="brand-logo hide-logo" href="./index.html"><span class="brand-first-logo">set</span>CSS</a>
+          <h4 class="nav-button"><a href="index.html" class="text-style-none liink-home-button">HOME</a></h4>
+        </div>
+        <div class="contact-links">
+          <a href="https://github.com/divyanshitomar" target="_blank"><i class="fab fa-github"></i></a>
+          <!-- <a href="#" target="_blank"><i class="fab fa-twitter"></i></a> -->
+          <a href="http://linkedin.com/in/divyanshitomar26" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </nav>
+      <div id="progress-bar"></div>
+
+      <aside class="side-bar-main" id="side-bar">
+        <ul class="side-bar-component">
+          <h3>Components</h3>
+          <li class="component-style">
+            <a class="text-style-none" href="#alert">Alert</a>
+          </li>
+          <li class="component-style">
+            <a class="text-style-none" href="#avatar">Avatar</a>
+          </li>
+          <li class="component-style">
+            <a class="text-style-none" href="#badge">Badge</a>
+          </li>
+          <li class="component-style">
+            <a class="text-style-none" href="#button">Button</a>
+          </li>
+          <li class="component-style"><a class="text-style-none" href="#card">Card</a></li>
+          <li class="component-style"><a class="text-style-none" href="#image">Image</a></li>
+          <li class="component-style"><a class="text-style-none" href="#input">Input</a></li>
+          <li class="component-style"><a class="text-style-none" href="#navbar">Navbar</a></li>
+          <li class="component-style"><a class="text-style-none" href="#rating">Rating</a></li>
+          <li class="component-style"><a class="text-style-none" href="#slider">Slider</a></li>
+          <li class="component-style"><a class="text-style-none" href="#text-util">Text Utilities</a></li>
+          <li class="component-style"><a class="text-style-none" href="#list">Lists</a></li>
+          <li class="component-style"><a class="text-style-none" href="#grid">Grid</a></li>
+          <li class="component-style"><a class="text-style-none" href="#toast">Toast</a></li>
+          <li class="component-style"><a class="text-style-none" href="#Modal">Modal</a></li>
+        </ul>
+      </aside>
+
+      <aside class="side-bar-main-mobile-view" id="side-bar-mobile">
+        <ul class="side-bar-component-mobile">
+          <h3>Components</h3>
+          <li class="component-style-mobile">
+            <a class="text-style-none" href="#alert">Alert</a>
+          </li>
+          <li class="component-style-mobile">
+            <a class="text-style-none" href="#avatar">Avatar</a>
+          </li>
+          <li class="component-style-mobile">
+            <a class="text-style-none" href="#badge">Badge</a>
+          </li>
+          <li class="component-style-mobile">
+            <a class="text-style-none" href="#button">Button</a>
+          </li>
+          <li class="component-style-mobile"><a class="text-style-none" href="#card">Card</a></li>
+          <li class="component-style-mobile"><a class="text-style-none" href="#image">Image</a></li>
+          <li class="component-style-mobile"><a class="text-style-none" href="#input">Input</a></li>
+          <li class="component-style-mobile"><a class="text-style-none" href="#navbar">Navbar</a></li>
+          <li class="component-style-mobile"><a class="text-style-none" href="#rating">Rating</a></li>
+          <li class="component-style-mobile"><a class="text-style-none" href="#slider">Slider</a></li>
+          <li class="component-style-mobile"><a class="text-style-none" href="#text-util">Text Utilities</a></li>
+          <li class="component-style-mobile"><a class="text-style-none" href="#list">Lists</a></li>
+          <li class="component-style-mobile"><a class="text-style-none" href="#grid">Grid</a></li>
+          <li class="component-style-mobile"><a class="text-style-none" href="#toast">Toast</a></li>
+          <li class="component-style-mobile"><a class="text-style-none" href="#Modal">Modal</a></li>
+        </ul>
+        <div class="close-side-bar" id="close-button-side-bar"><i class="fal fa-times"></i></div>
+      </aside>
+
+      <div id="floating-button-main" class="floating-button">
+        <i class="far fa-arrow-up"></i>
+      </div>
+
+      <div class="section-main">
+        <!-- alerts section -->
+        <section id="alert" class="section-component">
+          <div class="component-intro">
+            <p class="component-header">ALERT</p>
+            <p class="intro-font-weight">
+              Alert messages can be used to notify the user about something
+              special: danger, success, information or warning.
+            </p>
+            <h3>Alert Examples</h3>
+            <p>
+              There are various type of alerts & want to add this alert in your
+              html you need to add in each type of alert class Name
+              <span class="highlight">alert-box</span> and then add type of
+              class name given below after each alert list<span class="highlight">success-alert</span>,<span class="highlight">warning-alert</span>,<span class="highlight">error-alert</span>,<span class="highlight">primary-alert</span>.
+            </p>
+          </div>
+
+          <div class="component-outputs">
+            <div class="alert-box success-alert">
+              <span class="alert-icon"
+                ><i class="fas fa-check-circle"></i
+              ></span>
+              <p>Success! Indicates a successful or positive action.</p>
+            </div>
+
+            <div class="alert-box warning-alert">
+              <span class="alert-icon"
+                ><i class="fas fa-exclamation-triangle"></i
+              ></span>
+              <p>Warning! Indicates a warning that might need attention.</p>
+            </div>
+
+            <div class="alert-box error-alert">
+              <span class="alert-icon"
+                ><i class="fas fa-exclamation-circle"></i
+              ></span>
+              <p>
+                Danger! Indicates a dangerous or potentially negative action.
+              </p>
+            </div>
+
+            <div class="alert-box primary-alert">
+              <span class="alert-icon"><i class="fas fa-info-square"></i></span>
+              <p>Info! Indicates a neutral informative change or action.</p>
+            </div>
+          </div>
+          <div class="code-snippet">
+            <code>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert-box%2520success-alert%2522%253E%2520%2520%2520%2520%2520%250A%2520%2520%253Cspan%2520class%253D%2522alert-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%2520%2520%2520%2520%2520%250A%2520%2520%253Cp%253ESuccess%21%2520Indicates%2520a%2520successful%2520or%2520positive%2520action.%2520%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert-box%2520warning-alert%2522%253E%2520%2520%2520%2520%2520%250A%2520%2520%253Cspan%2520class%253D%2522alert-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%2520%2520%2520%2520%2520%250A%2520%2520%253Cp%253EWarning%21%2520Indicates%2520a%2520warning%2520that%2520might%2520need%2520attention.%2520%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert-box%2520error-alert%2522%253E%2520%2520%2520%2520%2520%250A%2520%2520%253Cspan%2520class%253D%2522alert-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%2520%2520%2520%2520%2520%250A%2520%2520%253Cp%253EDanger%21%2520Indicates%2520a%2520dangerous%2520or%2520potentially%2520negative%2520action.%2520%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert-box%2520primary-alert%2522%253E%2520%2520%2520%2520%2520%250A%2520%2520%253Cspan%2520class%253D%2522alert-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-info-square%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%2520%2520%2520%2520%2520%250A%2520%2520%253Cp%253EInfo%21%2520Indicates%2520a%2520neutral%2520informative%2520change%2520or%2520action.%2520%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </code>
+          </div>
+        </section>
+
+        <!-- avatar section -->
+        <section class="section-component" id="avatar">
+          <div class="component-intro">
+            <p class="component-header">Avatar</p>
+            <p class="intro-font-weight">
+              Avatar can be used to show user's profile picture on profile
+              information page, on navigation bar, in blogs grid items.
+            </p>
+            <h3>Avatar Examples</h3>
+            <p>
+              Avatar available in four different sizes. avatar can be add using
+              claas <span class="highlight">avatar</span> and then add type of
+              class name for different sizes are
+              <span class="highlight">avatar-x-large</span>
+              <span class="highlight">avatar-large</span>
+              <span class="highlight">avatar-small</span>
+              <span class="highlight">avatar-x-small</span>
+            </p>
+            <h4>Example for adding class name</h4>
+            <span class="highlight">class = "avatar avatar-small"</span>
+          </div>
+          <div class="component-outputs">
+            <div class="avatar-outputs">
+              <img
+                class="avatar avatar-x-large"
+                src="images/img_avatar.png"
+                alt="avatar image"
+              />
+              <img
+                class="avatar avatar-large"
+                src="images/img_avatar.png"
+                alt="avatar image"
+              />
+              <img
+                class="avatar avatar-small"
+                src="images/img_avatar.png"
+                alt="avatar image"
+              />
+              <img
+                class="avatar avatar-x-small"
+                src="images/img_avatar.png"
+                alt="avatar image"
+              />
+            </div>
+          </div>
+          <div class="code-snippet">
+            <code>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar%2520avatar-x-large%2522%2520src%253D%2522images%252Fimg_avatar.png%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2520avatar-large%2522%2520src%253D%2522images%252Fimg_avatar.png%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2520avatar-small%2522%2520src%253D%2522images%252Fimg_avatar.png%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2520avatar-x-small%2522%2520src%253D%2522images%252Fimg_avatar.png%2522%253E"
+                ;
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </code>
+          </div>
+          <h4>Example of text-avtaar</h4>
+          <p>For example to add avatar with text</p>
+          <div class="component-outputs">
+            <div class="avatar-outputs">
+              <div class="avatar avatar-bg-color avatar-x-large">AV</div>
+              <div class="avatar avatar-bg-color avatar-large">AV</div>
+              <div class="avatar avatar-bg-color avatar-small">AV</div>
+              <div class="avatar avatar-bg-color avatar-x-small">AV</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- badge section -->
+
+        <section id="badge" class="section-component">
+          <div class="component-intro">
+            <p class="component-header">Badge</p>
+            <p class="intro-font-weight">
+              Badge is use for to represent status of a person offline or online
+              and also for number of notification you have.
+            </p>
+            <h3>Example of badge with avtaar</h3>
+            <p>
+              You can add Component of badge with avtaar using class name
+              <span class="highlight">badge</span> and for
+              online/offline/standby/Dnd is
+              <span class="highlight">online-status</span> ,
+              <span class="highlight">offline-status</span> ,
+              <span class="highlight">standby-status</span> ,
+              <span class="highlight">dnd-status.</span>
+            </p>
+            <div class="component-outputs">
+              <div class="avatar-outputs">
+                <div class="badge-container">
+                  <img
+                    class="avatar avatar-x-large"
+                    src="images/img_avatar.png"
+                  />
+                  <div class="badge online-status"></div>
+                </div>
+                <div class="badge-container">
+                  <img
+                    class="avatar avatar-large"
+                    src="images/img_avatar.png"
+                  />
+                  <div class="badge offline-status"></div>
+                </div>
+                <div class="badge-container">
+                  <img
+                    class="avatar avatar-small"
+                    src="images/img_avatar.png"
+                  />
+                  <div class="badge standby-status"></div>
+                </div>
+                <div class="badge-container">
+                  <img
+                    class="avatar avatar-x-small"
+                    src="images/img_avatar.png"
+                  />
+                  <i id="dnd-status" class="fas fa-do-not-enter"></i>
+                </div>
+              </div>
+            </div>
+            <div class="code-snippet">
+              <code>
+                <iframe
+                  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge-avatar-container%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-x-large%2522%2520src%253D%2522images%252Fimg_avatar.png%2522%253E%2520%2520%250A%2520%2520%253Cdiv%2520class%253D%2522badge%2520online-status%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge-avatar-container%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-large%2522%2520src%253D%2522images%252Fimg_avatar.png%2522%253E%2520%2520%250A%2520%2520%253Cdiv%2520class%253D%2522badge%2520offline-status%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522badge-avatar-container%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-small%2522%2520src%253D%2522images%252Fimg_avatar.png%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Cdiv%2520class%253D%2522badge%2520standby-status%2522%253E%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522badge-avatar-container%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-x-small%2522%2520src%253D%2522images%252Fimg_avatar.png%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Ci%2520id%253D%2522dnd-status%2522%2520class%253D%2522fas%2520fa-do-not-enter%2522%253E%253C%252Fi%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fdiv%253E"
+                  sandbox="allow-scripts allow-same-origin"
+                >
+                </iframe>
+              </code>
+            </div>
+            <h3>Badge with icon</h3>
+            <div class="component-outputs">
+              <div class="badge-container gap-10">
+                <div class="avatar">
+                  <i class="fas fa-shopping-cart"></i>
+                  <span class="badge-icon badge-shopping-cart">6</span>
+                </div>
+                <div class="avatar">
+                  <i class="fas fa-paper-plane"></i>
+                  <span class="badge-icon badge-shopping-cart">6</span>
+                </div>
+              </div>
+            </div>
+            <div class="code-snippet">
+              <code>
+                <iframe
+                  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Cspan%2520class%253D%2522badge-icon%2520badge-shopping-cart%2522%253E6%253C%252Fspan%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522avatar%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-paper-plane%2522%253E%253C%252Fi%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Cspan%2520class%253D%2522badge-icon%2520badge-shopping-cart%2522%253E6%253C%252Fspan%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fdiv%253E"
+                  sandbox="allow-scripts allow-same-origin"
+                >
+                </iframe>
+              </code>
+            </div>
+          </div>
+        </section>
+
+        <!-- Button-Section -->
+
+        <section class="section-component" id="button">
+          <div class="component-intro">
+            <p class="component-header">Button</p>
+            <p class="intro-font-weight">
+              Button are used for some action you have to perform on the page.
+              These are used in forms, login window, etc. various type of button
+              for various purposes.
+            </p>
+            <h3>Primary button & Link button</h3>
+          </div>
+          <div class="component-outputs">
+            <div class="button-output">
+              <button class="button-style-none solid-button">
+                Primary-Solid
+              </button>
+              <button class="button-style-none outline-button">
+                Primary-Outline
+              </button>
+              <button class="button-style-none secondary-button">
+                Secondary
+              </button>
+              <button class="button-style-none text-button">
+                Primary-Text-link
+              </button>
+              <button class="button-style-none link-button">Link-text</button>
+            </div>
+          </div>
+          <div class="code-snippet">
+            <code>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522button-style-none%2520solid-button%2522%253EPrimary-Solid%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520class%253D%2522button-style-none%2520outline-button%2522%253EPrimary-Outline%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520class%253D%2522button-style-none%2520secondary-button%2522%253ESecondary%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520class%253D%2522button-style-none%2520text-button%2522%253EPrimary-Text-link%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520class%253D%2522button-style-none%2520link-button%2522%253ELink-text%253C%252Fbutton%253E";
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </code>
+          </div>
+          <h3>Icon button</h3>
+          <div class="component-outputs">
+            <div class="button-output">
+              <button class="button-style-none home-button-bg">
+                <i class="fas fa-home"></i>
+              </button>
+              <button class="button-style-none home-button">
+                <i class="fas fa-home"></i>
+              </button>
+              <button class="button-style-none home-button-text">
+                <i class="fas fa-home"></i> HOME
+              </button>
+            </div>
+          </div>
+
+          <div class="code-snippet">
+            <code>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522button-style-none%2520home-button-bg%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-home%2522%253E%253C%252Fi%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520class%253D%2522button-style-none%2520home-button%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-home%2522%253E%253C%252Fi%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520class%253D%2522button-style-none%2520home-button-text%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-home%2522%253E%253C%252Fi%253E%2520HOME%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fbutton%253E";
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </code>
+          </div>
+
+          <h3>Floating action button</h3>
+          <div class="component-outputs">
+            <div class="button-output">
+              <div class="floating-button">
+                <i class="far fa-arrow-up"></i>
+              </div>
+            </div>
+          </div>
+          <div class="code-snippet">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522floating-button%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-arrow-up%2522%253E%253C%252Fi%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fdiv%253E";
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </section>
+      
+      <!-- card -->
+      <section class="section-component" id="card">
+        <div class="component-intro">
+          <p class="component-header">Card</p>
+          <p class="intro-font-weight">
+           Card are used to show user related data collectively, like product details.
+          </p>
+          <h3>Cards vertical with (badge + text-overlay + card-dismiss)</h3>
+         </div>
+         <div class="component-outputs">
+            <!-- Vertical card with badge -->
+            <div class="card-output-vertical">
+             <div class="card-vertical box-shadow">
+               <div class="card-img img-center">
+                 <img class="img-responsive with-border" src="images/download.jpeg" alt="">
+                 <span class="badge-card">trending</span>
+               </div>
+               <div class="text-container">
+                 <h4>Google Pixel 4a (Just Black)</h4>
+                 <div class="inline-display"><span class="rating-card">4.5<i class="fal fa-star"></i></span><span class="secondary-text">43,499 Ratings</span></div>
+                 <p class="price-card"><span class="original-price">$100</span> <span class="price-discount">$149</span> <span class="price-percantage">33%</span></p>
+               </div>
+               <div class="card-button-container">
+                 <button class="button-style-none solid-button"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+               </div>
+             </div>
+
+             <!-- vertical card with badge and text-overlay -->
+
+             <div class="text-overlay-component box-shadow">
+              <div class="card-vertical text-overlay">
+                <div class="card-img img-center">
+                  <img class="img-responsive with-border" src="images/google-pixel-4a-ga02099-in-original-imafwyznjqayzp2f.jpeg" alt="">
+                  <span class="badge-card">trending</span>
+                </div>
+                <div class="text-container">
+                  <h4>Google Pixel 4a (Just Black)</h4>
+                  <div class="inline-display"><span class="rating-card">4.5<i class="fal fa-star"></i></span><span class="secondary-text">43,499 Ratings</span></div>
+                  <p class="price-card"><span class="original-price">$100</span> <span class="price-discount">$149</span> <span class="price-percantage">33%</span></p>
+                </div>
+                <div class="card-button-container">
+                  <button class="button-style-none solid-button"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+                </div>
+             </div>
+             <div class="text-overlay-message">
+               <h3>Out of stock</h3>
+             </div>
+             </div>
+
+            <!-- vertical card with dismiss -->
+
+             <div class="card-vertical box-shadow">
+               <div class="card-img img-center">
+                 <img class="img-responsive with-border" src="images/google-pixel-4a-ga02099-in-original-imafwyznjqayzp2f.jpeg" alt="">
+                 <span class="badge-card">trending</span>
+                 <i id="close-btn" class="fal fa-times"></i></button>
+               </div>
+
+               <div class="text-container">
+                 <h4>Google Pixel 4a (Just Black)</h4>
+                 <div class="inline-display"><span class="rating-card">4.5<i class="fal fa-star"></i></span><span class="secondary-text">43,499 Ratings</span></div>
+                 <p class="price-card"><span class="original-price">$100</span> <span class="price-discount">$149</span> <span class="price-percantage">33%</span></p>
+               </div>
+               <div class="card-button-container">
+                 <button class="button-style-none solid-button"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+               </div>
+            </div>
+       </div>
+       </div>
+
+           <div class="code-snippet">
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-vertical%2520box-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-img%2520img-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-responsive%2520with-border%2522%2520src%253D%2522images%252Fdownload.jpeg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-card%2522%253Etrending%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253EGoogle%2520Pixel%25204a%2520%28Just%2520Black%29%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522inline-display%2522%253E%253Cspan%2520class%253D%2522rating-card%2522%253E4.5%253Ci%2520class%253D%2522fal%2520fa-star%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%253Cspan%2520class%253D%2522secondary-text%2522%253E43%252C499%2520Ratings%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522price-card%2522%253E%253Cspan%2520class%253D%2522original-price%2522%253E%2524100%253C%252Fspan%253E%2520%253Cspan%2520class%253D%2522price-discount%2522%253E%2524149%253C%252Fspan%253E%2520%253Cspan%2520class%253D%2522price-percantage%2522%253E33%2525%253C%252Fspan%253E%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-button-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button-style-none%2520solid-button%2522%253E%253Ci%2520class%253D%2522fas%2520fa-cart-plus%2522%253E%253C%252Fi%253E%2520Add%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+            
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>  
+           </div>
+
+           <div class="code-snippet">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-overlay-component%2520box-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-vertical%2520text-overlay%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-img%2520img-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-responsive%2520with-border%2522%2520src%253D%2522images%252Fgoogle-pixel-4a-ga02099-in-original-imafwyznjqayzp2f.jpeg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-card%2522%253Etrending%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253EGoogle%2520Pixel%25204a%2520%28Just%2520Black%29%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522inline-display%2522%253E%253Cspan%2520class%253D%2522rating-card%2522%253E4.5%253Ci%2520class%253D%2522fal%2520fa-star%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%253Cspan%2520class%253D%2522secondary-text%2522%253E43%252C499%2520Ratings%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522price-card%2522%253E%253Cspan%2520class%253D%2522original-price%2522%253E%2524100%253C%252Fspan%253E%2520%253Cspan%2520class%253D%2522price-discount%2522%253E%2524149%253C%252Fspan%253E%2520%253Cspan%2520class%253D%2522price-percantage%2522%253E33%2525%253C%252Fspan%253E%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-button-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button-style-none%2520solid-button%2522%253E%253Ci%2520class%253D%2522fas%2520fa-cart-plus%2522%253E%253C%252Fi%253E%2520Add%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-overlay-message%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EOut%2520of%2520stock%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+  
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+           </div>
+
+           <div class="code-snippet">
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-vertical%2520box-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-img%2520img-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-responsive%2520with-border%2522%2520src%253D%2522images%252Fgoogle-pixel-4a-ga02099-in-original-imafwyznjqayzp2f.jpeg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-card%2522%253Etrending%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520id%253D%2522close-btn%2522%2520class%253D%2522fal%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253EGoogle%2520Pixel%25204a%2520%28Just%2520Black%29%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522inline-display%2522%253E%253Cspan%2520class%253D%2522rating-card%2522%253E4.5%253Ci%2520class%253D%2522fal%2520fa-star%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%253Cspan%2520class%253D%2522secondary-text%2522%253E43%252C499%2520Ratings%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522price-card%2522%253E%253Cspan%2520class%253D%2522original-price%2522%253E%2524100%253C%252Fspan%253E%2520%253Cspan%2520class%253D%2522price-discount%2522%253E%2524149%253C%252Fspan%253E%2520%253Cspan%2520class%253D%2522price-percantage%2522%253E33%2525%253C%252Fspan%253E%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-button-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button-style-none%2520solid-button%2522%253E%253Ci%2520class%253D%2522fas%2520fa-cart-plus%2522%253E%253C%252Fi%253E%2520Add%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+            
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+           </div>
+
+           <h3>Cards horizontal</h3>
+           <div class="component-outputs">
+             <div class="horizontal-card-output box-shadow">
+               <div class="horizontal-card">
+                 <div class="card-img img-center">
+                   <img class="img-responsive with-border" src="images/download.jpeg" alt="">
+                   <span class="badge-card">trending</span>
+                 </div>
+                 <div class="card-description-container">
+                 <div class="text-container text-grid">
+                   <h4>Google Pixel 4a (Just Black)</h4>
+                   <div class="inline-display"><span class="rating-card">4.5<i class="fal fa-star"></i></span><span class="secondary-text">43,499 Ratings</span></div>
+                   <p class="price-card"><span class="original-price">$100</span> <span class="price-discount">$149</span> <span class="price-percantage">33%</span></p>
+                 </div>
+                 <div class="card-button-container button-grid">
+                   <button class="button-style-none solid-button"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+                   <button class="button-style-none secondary-button">Move to wishlist</button>
+                 </div>
+                </div>
+               </div>
+             </div>
+           </div>
+
+           <div class="code-snippet">
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522horizontal-card-output%2520box-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522horizontal-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-img%2520img-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-responsive%2520with-border%2522%2520src%253D%2522images%252Fdownload.jpeg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-card%2522%253Etrending%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-description-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-container%2520text-grid%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253EGoogle%2520Pixel%25204a%2520%28Just%2520Black%29%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522inline-display%2522%253E%253Cspan%2520class%253D%2522rating-card%2522%253E4.5%253Ci%2520class%253D%2522fal%2520fa-star%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%253Cspan%2520class%253D%2522secondary-text%2522%253E43%252C499%2520Ratings%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522price-card%2522%253E%253Cspan%2520class%253D%2522original-price%2522%253E%2524100%253C%252Fspan%253E%2520%253Cspan%2520class%253D%2522price-discount%2522%253E%2524149%253C%252Fspan%253E%2520%253Cspan%2520class%253D%2522price-percantage%2522%253E33%2525%253C%252Fspan%253E%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-button-container%2520button-grid%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button-style-none%2520solid-button%2522%253E%253Ci%2520class%253D%2522fas%2520fa-cart-plus%2522%253E%253C%252Fi%253E%2520Add%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button-style-none%2520secondary-button%2522%253EMove%2520to%2520wishlist%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+        
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+           </div>
+      
+      </section>
+
+      <!-- images -->
+      <section class="section-component" id="image">
+        <p class="component-header">Responsive Image</p>
+        <p class="font-intro-weight">
+          A responsive image will automatically adjust for different screen sizes and viewports.
+        </p>
+        <img class="img-responsive" src="images/1062939_pc-desktop-wallpapers-desktop-wallpapers_970x546_h.webp" alt="wallpaper">
+        <div class="code-snippet">
+          <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522img-responsive%2522%2520src%253D%2522images%252F1062939_pc-desktop-wallpapers-desktop-wallpapers_970x546_h.webp%2522%2520alt%253D%2522wallpaper%2522%253E"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+        </div>
+        <h1>Rounded image</h1>
+        <img class="img-round" src="images/1062939_pc-desktop-wallpapers-desktop-wallpapers_970x546_h.webp" alt="wallpaper">
+        <div class="code-snippet">
+          <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522img-round%2522%2520src%253D%2522images%252F1062939_pc-desktop-wallpapers-desktop-wallpapers_970x546_h.webp%2522%2520alt%253D%2522wallpaper%2522%253E"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+        </div>
+      </section>
+
+
+      <!-- Input -->
+
+      <section class="section-component" id="input">
+        <p class="component-header">Input textbox</p>
+        <p class="intro-font-weight">
+          Text box is used for to enter a para from user in a form.
+        </p>
+        <div class="component-outputs">
+          <textarea class="form-feild" rows="3" placeholder="Enter your text..."></textarea>
+        </div>
+
+        <div class="code-snippet">
+          <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522component-outputs%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Ctextarea%2520class%253D%2522form-feild%2522%2520rows%253D%25223%2522%2520placeholder%253D%2522Enter%2520your%2520text...%2522%253E%250A%2520%2520%253C%252Ftextarea%253E%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fdiv%253E"
+  
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+        </div>
+
+        <h3>Input With Validation</h3>
+        <div class="component-outputs">
+
+          <div class="input-container">
+            <label class="input-label" for="email-box">Email:</label>
+            <input class="input-box" type="email" name="email-box" 
+            placeholder="Enter valid email" size="25">
+         </div>
+
+         <div class="input-container">
+          <label class="input-label" for="contact-number">Mobile No:</label>
+          <input id="input-number" class="input-box" type="text" 
+          placeholder="Enter 10 digit contact number">
+       </div>
+
+       <div class="code-snippet">
+        <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%253Clabel%2520class%253D%2522input-label%2522%2520for%253D%2522email-box%2522%253EEmail%253A%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520class%253D%2522input-box%2522%2520type%253D%2522email%2522%2520name%253D%2522email-box%2522%2520%250A%2520%2520placeholder%253D%2522Enter%2520valid%2520email%2522%2520size%253D%252225%2522%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%253Clabel%2520class%253D%2522input-label%2522%2520for%253D%2522contact-number%2522%253EMobile%2520No%253A%253C%252Flabel%253E%250A%253Cinput%2520id%253D%2522input-number%2522%2520class%253D%2522input-box%2522%2520type%253D%2522text%2522%2520%250Aplaceholder%253D%2522Enter%252010%2520digit%2520contact%2520number%2522%253E%250A%253C%252Fdiv%253E"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+        </section>
+
+        <section class="section-component" id="rating">
+          <p class="component-header">Rating</p>
+          <p class="intro-font-weight">
+            Rating is used for taking feedback from users.
+          </p>
+          <div class="component-outputs">
+          <div class="rating-outputs">
+            <i class="fas fa-star rated"></i>
+            <i class="fas fa-star rated"></i>
+            <i class="fas fa-star rated"></i>
+            <i class="fas fa-star rated"></i>
+            <i class="fas fa-star unrated"></i>
+          </div>
+        </div>
+        <div class="code-snippet">
+          <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating-outputs%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520rated%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520rated%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520rated%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520rated%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520unrated%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%2520%2520"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+        </div>
+        </section>
+
+        <section class="section-component" id="text-util">
+          <p class="component-header">Text utility</p>
+          <p class="intro-font-weight">
+            Examples for common text utilities to control text alignment, heading, weight, and more.
+          </p>
+          <h3>Heading util</h3>
+            <div class="component-outputs">
+              <h1>H1-Heading</h1>
+              <h2>H2-Heading</h2>
+              <h3>H3-Heading</h3>
+              <h4>H4-Heading</h4>
+              <h5>H5-Heading</h5>
+              <h6>H6-Heading</h6>
+            </div>
+            <div class="code-snippet">
+              <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch1%253EH1-Heading%253C%252Fh1%253E%250A%253Ch2%253EH2-Heading%253C%252Fh2%253E%250A%253Ch3%253EH3-Heading%253C%252Fh3%253E%250A%253Ch4%253EH4-Heading%253C%252Fh4%253E%250A%253Ch5%253EH5-Heading%253C%252Fh5%253E%250A%253Ch6%253EH6-Heading%253C%252Fh6%253E"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+            </div>
+          <h3>Para util</h3>
+          <p class="intro-font-weight">you can add word style in your para.</p>
+          <div class="component-outputs">
+            <p class="bold-text">Bold text</p>
+            <p>This text contain <sup>superscript</sup> text.</p>
+            <p>This text contain <sub>subscript</sub> text.</p>
+            <p>Some text are <span class="underline-text">Underline</span> <span class="overline-text">Overline</span> <span class="line_through-text">Line-through</span> text.</p>
+            <p class="primary-color-text">Primary-color-text.</p>
+            <p class="secondary-color-text">Secondary-color-text</p>
+            <p class="primary-background-color fit-content text-color-white">Primary background color text.</p>
+            <p class="secondary-background-color fit-content text-color-white">Secondary background color text.</p>
+            <p>This para contain <small>small text</small>.</p>
+          </div>
+
+          <div class="code-snippet">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522bold-text%2522%253EBold%2520text%253C%252Fp%253E%250A%253Cp%253EThis%2520text%2520contain%2520%253Csup%253Esuperscript%253C%252Fsup%253E%2520text.%253C%252Fp%253E%250A%253Cp%253EThis%2520text%2520contain%2520%253Csub%253Esubscript%253C%252Fsub%253E%2520text.%253C%252Fp%253E%250A%253Cp%253ESome%2520text%2520are%2520%250A%2520%2520%253Cspan%2520class%253D%2522underline-text%2522%253EUnderline%253C%252Fspan%253E%2520%250A%2520%2520%253Cspan%2520class%253D%2522overline-text%2522%253EOverline%253C%252Fspan%253E%2520%250A%2520%2520%253Cspan%2520class%253D%2522line_through-text%2522%253ELine-through%253C%252Fspan%253E%2520text.%250A%253C%252Fp%253E%250A%253Cp%2520class%253D%2522primary-color-text%2522%253EPrimary-color-text.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522secondary-color-text%2522%253ESecondary-color-text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522primary-background-color%2520fit-content%2520text-color-white%2522%253EPrimary%2520background%2520color%2520text.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522secondary-background-color%2520fit-content%2520text-color-white%2522%253ESecondary%2520background%2520color%2520text.%253C%252Fp%253E%250A%253Cp%253EThis%2520para%2520contain%2520%253Csmall%253Esmall%2520text%253C%252Fsmall%253E.%253C%252Fp%253E"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+          </div>
+          <h3>Align text</h3>
+          <div class="component-outputs">
+            <h6 class="text-center">H6-Heading Text Align Center</h6>
+            <h6 class="text-left">H6-Heading Text Align left</h6>
+            <h6 class="text-right">H6-Heading Text Align right</h6>
+          </div>
+          <div class="code-snippet">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch6%2520class%253D%2522text-center%2522%253EH6-Heading%2520Text%2520Align%2520Center%253C%252Fh6%253E%250A%253Ch6%2520class%253D%2522text-left%2522%253EH6-Heading%2520Text%2520Align%2520left%253C%252Fh6%253E%250A%253Ch6%2520class%253D%2522text-right%2522%253EH6-Heading%2520Text%2520Align%2520right%253C%252Fh6%253E"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+          </div>
+        </section>
+
+        <section class="section-component" id="navbar">
+          <p class="component-header">Navbar</p>
+          <p class="intro-font-weight">
+            Navigation bar is used to navigate through the web apps or websites. This navigation component is responsive. It is a hamburger menu in medium and small devices.
+          </p>
+            <nav class="navbar box-shadow">
+              <div class="brand-name">
+                <a class="text-style-none font-lg" href="./index.html"><h4>smasher</h4></a>
+              </div>
+              <div class="searchbar">
+                <input class="inputbox-style" type="text" placeholder="Search item...">
+                <button><i class="fal fa-search searchbar-style"></i></button>
+              </div>
+              <div class="cta-button">
+                <button class="button-style-none solid-button">
+                  Login
+                </button>
+              
+                <div class="icon-label-container">
+                  <a href=""><i class="far fa-heart"></i></a>
+                  <div class="badge badge-icon-card">6</div>
+                </div>
+
+                <div class="icon-label-container">
+                  <a href=""><i class="far fa-shopping-bag"></i></a>
+                  <!-- <span class="icon-label">cart</span> -->
+                  <div class="badge badge-icon-card">6</div>
+                </div>
+
+              </div>
+            </nav>
+            <div class="code-snippet">
+              <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522navbar%2520box-shadow%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522brand-name%2522%253E%250A%2520%2520%2520%2520%253Ca%2520class%253D%2522text-style-none%2520font-lg%2522%2520href%253D%2522.%252Findex.html%2522%253E%253Ch4%253Esmasher%253C%252Fh4%253E%253C%252Fa%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522searchbar%2522%253E%250A%2520%2520%2520%2520%253Cinput%2520class%253D%2522inputbox-style%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Search%2520item...%2522%253E%250A%2520%2520%2520%2520%253Cbutton%253E%253Ci%2520class%253D%2522fal%2520fa-search%2520searchbar-style%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522cta-button%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button-style-none%2520solid-button%2522%253E%250A%2520%2520%2520%2520%2520%2520Login%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon-label-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%253E%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520badge-icon-card%2522%253E6%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon-label-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%253E%253Ci%2520class%253D%2522far%2520fa-shopping-bag%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520badge-icon-card%2522%253E6%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fnav%253E"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+            </div>
+        </section>
+
+        <section class="section-component" id="slider">
+          <p class="component-header">Slider</p>
+          <p class="intro-font-weight">
+            Sliders are used to decide range for something like sound in videos, price in shopping sites, etc.
+          </p>
+          <h3>Example of slider</h3>
+          <div class="component-outputs">
+            <div class="slider-container">
+              <div class="slider-tag">
+                <span class="slider-tag-value">0</span>
+                <span class="slider-tag-value">50</span>
+                <span class="slider-tag-value">100</span>
+              </div>
+              <div>
+                <input type="range" min="1" max="100" value="100" class="slider-style">
+              </div>
+            </div>
+          </div>
+          <div class="code-snippet">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522slider-container%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522slider-tag%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522slider-tag-value%2522%253E0%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522slider-tag-value%2522%253E50%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522slider-tag-value%2522%253E100%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522range%2522%2520min%253D%25220%2522%2520max%253D%2522100%2522%2520class%253D%2522slider-style%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+          </div>
+        </section>
+
+        <section class="section-component" id="list">
+          <p class="component-header">Lists</p>
+          <p class="intro-font-weight">
+            Lists can be used at so many places, navigation bar, aside bar, articles etc.
+          </p>
+          <h3>Example of Unordered List with bullets</h3>
+          <p>Add class according to bullet style. Copy html code below and add your desired list items.</p>
+          <div class="component-outputs">
+            <div class="lists-container">
+              <ul class="list-style-disc"> 
+                <li>item1</li>
+                <li>item2</li>
+                <li>item3</li>
+              </ul>
+              <ul class="list-style-circle"> 
+                <li>item1</li>
+                <li>item2</li>
+                <li>item3</li>
+              </ul>
+              <ul class="list-style-square"> 
+                <li>item1</li>
+                <li>item2</li>
+                <li>item3</li>
+              </ul>
+              <ul class="list-style-thumbsup"> 
+                <li>item1</li>
+                <li>item2</li>
+                <li>item3</li>
+              </ul>
+            </div>
+          </div>
+          <div class="code-snippet">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list-style-disc%2522%253E%2520%250A%2520%2520%253Cli%253Eitem1%253C%252Fli%253E%250A%2520%2520%253Cli%253Eitem2%253C%252Fli%253E%250A%2520%2520%253Cli%253Eitem3%253C%252Fli%253E%250A%253C%252Ful%253E%250A%250A%253Cul%2520class%253D%2522list-style-circle%2522%253E%2520%250A%2520%2520%253Cli%253Eitem1%253C%252Fli%253E%250A%2520%2520%253Cli%253Eitem2%253C%252Fli%253E%250A%2520%2520%253Cli%253Eitem3%253C%252Fli%253E%250A%253C%252Ful%253E%250A%250A%253Cul%2520class%253D%2522list-style-square%2522%253E%2520%250A%2520%2520%253Cli%253Eitem1%253C%252Fli%253E%250A%2520%2520%253Cli%253Eitem2%253C%252Fli%253E%250A%2520%2520%253Cli%253Eitem3%253C%252Fli%253E%250A%253C%252Ful%253E%250A%250A%253Cul%2520class%253D%2522list-style-thumbsup%2522%253E%2520%250A%2520%2520%253Cli%253Eitem1%253C%252Fli%253E%250A%2520%2520%253Cli%253Eitem2%253C%252Fli%253E%250A%2520%2520%253Cli%253Eitem3%253C%252Fli%253E%250A%253C%252Ful%253E"
+  
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+          </div>
+          <h3>Example of Ordered List with bullets</h3>
+          <p>Add class according to bullet style.Want to print reverse order list add <span class="highlight">reversed</span> attribute to ol element</p>
+          <div class="component-outputs">
+            <div class="lists-container">
+              <ol class="list-style-number" reversed>
+                <li>Reverse item</li>
+                <li>Reverse item</li>
+                <li>Reverse item</li>
+              </ol>
+
+              <ol class="list-style-smAlphabet">
+                <li>item1</li>
+                <li>item2</li>
+                <li>item3</li>
+              </ol>
+
+              <ol class="list-style-upperAlphabet">
+                <li>item1</li>
+                <li>item2</li>
+                <li>item3</li>
+              </ol>
+
+              <ol class="list-style-upperRoman">
+                <li>item1</li>
+                <li>item2</li>
+                <li>item3</li>
+              </ol>
+              
+              <ol class="list-style-devanagari">
+                <li>item1</li>
+                <li>item2</li>
+                <li>item3</li>
+              </ol>
+
+              <ol class="list-style-decimal-leading-zero">
+                <li>item1</li>
+                <li>item2</li>
+                <li>item3</li>
+              </ol>
+            </div>
+          </div>
+          <div class="code-snippet">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Col%2520class%253D%2522list-style-number%2522%2520reversed%253E%250A%2520%2520%253Cli%253EReverse%2520item%253C%252Fli%253E%250A%2520%2520%253Cli%253EReverse%2520item%253C%252Fli%253E%250A%2520%2520%253Cli%253EReverse%2520item%253C%252Fli%253E%250A%253C%252Fol%253E%250A%250A%253Col%2520class%253D%2522list-style-smAlphabet%2522%253E%250A%2520%2520%253Cli%253Eitem1%253C%252Fli%253E%250A%2520%2520%253Cli%253Eitem2%253C%252Fli%253E%250A%2520%2520%253Cli%253Eitem3%253C%252Fli%253E%250A%253C%252Fol%253E%250A%250A%253Col%2520class%253D%2522list-style-upperAlphabet%2522%253E%250A%2520%2520%253Cli%253Eitem1%253C%252Fli%253E%250A%2520%2520%253Cli%253Eitem2%253C%252Fli%253E%250A%2520%2520%253Cli%253Eitem3%253C%252Fli%253E%250A%253C%252Fol%253E%250A%250A%253Col%2520class%253D%2522list-style-upperRoman%2522%253E%250A%2520%2520%253Cli%253Eitem1%253C%252Fli%253E%250A%2520%2520%253Cli%253Eitem2%253C%252Fli%253E%250A%2520%2520%253Cli%253Eitem3%253C%252Fli%253E%250A%253C%252Fol%253E%250A%250A%253Col%2520class%253D%2522list-style-devanagari%2522%253E%250A%2520%2520%253Cli%253Eitem1%253C%252Fli%253E%250A%2520%2520%253Cli%253Eitem2%253C%252Fli%253E%250A%2520%2520%253Cli%253Eitem3%253C%252Fli%253E%250A%253C%252Fol%253E%250A%250A%253Col%2520class%253D%2522list-style-decimal-leading-zero%2522%253E%250A%2520%2520%253Cli%253Eitem1%253C%252Fli%253E%250A%2520%2520%253Cli%253Eitem2%253C%252Fli%253E%250A%2520%2520%253Cli%253Eitem3%253C%252Fli%253E%250A%253C%252Fol%253E"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+          </div>
+          <h3>List With No Bullets</h3>
+          <div class="component-outputs">
+            <div class="lists-container">
+              <ul class="list-style-none">
+                <li>item 1</li>
+                <li>item 2</li>
+                <li>item 3</li>
+              </ul>
+            </div>
+          </div>
+          <div class="code-snippet">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cul%2520class%253D%2522list-style-none%2522%253E%250A%2520%2520%2520%253Cli%253Eitem%25201%253C%252Fli%253E%250A%2520%2520%2520%253Cli%253Eitem%25202%253C%252Fli%253E%250A%2520%2520%2520%253Cli%253Eitem%25203%253C%252Fli%253E%250A%2520%253C%252Ful%253E"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+          </div>
+        </section>
+
+        <section class="section-component" id="grid">
+          <p class="component-header">Grid</p>
+          <p class="intro-font-weight">
+            Use grid when you want sections in view. Check below some examples of side by side cards.
+          </p>
+          <h3>Example of side by side <span class="highlight">50 : 50 layout</span></h3>
+          <div class="component-outputs">
+            <div class=" grids grid-50-50-layout">
+              <div class="grid-first"></div>
+              <div class="grid-second"></div>
+            </div>
+          </div>
+
+          <div class="code-snippet">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522%2520grids%2520grid-50-50-layout%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522grid-first%2522%253E%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522grid-second%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+  
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+          </div>
+
+          <h3>Example of side by side <span class="highlight">70 : 30 layout</span> </h3>
+          <div class="component-outputs">
+            <div class=" grids grid-70-30-layout">
+              <div class="grid-first"></div>
+              <div class="grid-second"></div>
+            </div>
+          </div>
+
+          <div class="code-snippet">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522%2520grids%2520grid-70-30-layout%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522grid-first%2522%253E%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522grid-second%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+  
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+          </div>
+
+          <h3>Example of side by side <span class="highlight">30 : 70 layout</span> </h3>
+          <div class="component-outputs">
+            <div class=" grids grid-30-70-layout">
+              <div class="grid-first"></div>
+              <div class="grid-second"></div>
+            </div>
+          </div>
+
+          <div class="code-snippet">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522%2520grids%2520grid-30-70-layout%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522grid-first%2522%253E%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522grid-second%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+  
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+          </div>
+
+          <h3>Example of a website page grid layout</h3>
+          <div class="component-outputs">
+            <div class="grids web-page-grid">
+              <div class="flex nav-bar">Navbar</div>
+              <div class="flex aside-lt">Aside-left</div>
+              <div class="flex aside-rt">Aside-right</div>
+              <div class="flex main-content">main</div>
+              <div class="flex footer-bar">footer</div>
+            </div>
+          </div>
+
+          <div class="code-snippet">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grids%2520web-page-grid%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522flex%2520nav-bar%2522%253ENavbar%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522flex%2520aside-lt%2522%253EAside-left%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522flex%2520aside-rt%2522%253EAside-right%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522flex%2520main-content%2522%253Emain%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522flex%2520footer-bar%2522%253Efooter%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+  
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+          </div>
+
+      
+        </section>
+        
+        <section class="section-component" id="toast">
+          <p class="component-header">Toast</p>
+          <p class="intro-font-weight">
+            This component can be used for toast or snackbar component. Toast is mostly used to show feedback message.
+          </p>
+          <h3>Example of toast</h3>
+          <p>There are mostly two types of toast one is for <span class="highlight">success</span> and <span class="highlight">error</span>. You can use by copying the Html code as well JavaScript also.</p>
+          <div class="component-outputs">
+            <div class="toast toast-success">
+              Login Succesfully!
+             <i class="fal fa-times"></i>
+          </div>
+          
+          <div class="toast toast-error">
+              Something Went Wrong!!.
+              <i class="fal fa-times"></i>
+          </div>
+          </div>
+
+          <div class="code-snippet">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522toast%2520toast-success%2522%253E%250A%2520%2520%2520%2520%2520Login%2520Succesfully%21%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fal%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%253C%252Fdiv%253E%250A%2520%250A%2520%253Cdiv%2520class%253D%2522toast%2520toast-error%2522%253E%250A%2520%2520%2520%2520%2520Something%2520Went%2520Wrong%21%21.%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fal%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%253C%252Fdiv%253E"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+          </div>
+          <h3>Example For Live Demo</h3>
+          <p>You have also make a js file for fully functionality toast.</p>
+          <div class="toast toast-success" id="toast-example-success">
+            Login Succesfully!
+           <i class="fal fa-times"></i>
+        </div>
+          <div class="component-outputs">
+            <button class="button-style-none solid-button show-toast-example-btn">Live Demo</button>
+          </div>
+          <div class="code-snippet">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast%2520toast-success%2522%2520id%253D%2522toast-example-success%2522%253E%250A%2520%2520%2520%2520Login%2520Succesfully%21%250A%2520%2520%2520%253Ci%2520class%253D%2522fal%2520fa-times%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%2520%2520%250A%253Cbutton%2520class%253D%2522button-style-none%2520solid-button%2520show-toast-example-btn%2522%253ELive%2520Demo%253C%252Fbutton%253E%250A%2520%2520"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+          </div>
+
+          <h3>JavaScript</h3>
+          <div class="code-snippet">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=javascript&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=const%2520toastExample%2520%253D%2520document.querySelector%28%2522%2523toast-example-success%2522%29%253B%250Aconst%2520btnToShowToast%2520%253D%2520document.querySelector%28%2522.show-toast-example-btn%2522%29%253B%250A%250Alet%2520timerIdForToast%253B%250AbtnToShowToast.addEventListener%28%2522click%2522%252C%2520%28%29%253D%253E%257B%250A%2520%2520%2520%2520toastExample.style.display%2520%253D%2520%2522block%2522%253B%250A%2520%2520%2520%2520timerIdForToast%2520%253D%2520setTimeout%28%28%29%253D%253E%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520toastExample.style.display%2520%253D%2520%2522none%2522%253B%2520%2520%250A%2520%2520%2520%2520%257D%252C2000%250A%257D%29%250A%2520%2520"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+          </div>
+        </section>
+
+        <section class="section-component" id="Modal">
+          <p class="component-header">Modal</p>
+          <p class="intro-font-weight">
+            Modals are positioned over everything else in the document and remove scroll from the page. It gets closed only with close button on modal pop-up.
+          </p>
+          <h3>Example of Modal</h3>
+          <div class="component-outputs">
+            <div class="modal-container">
+              <div class="modal-items">
+              <h4>Modal pop-up container</h4>
+              <button class="button-style-none solid-button">Go back</button>
+            </div>
+            </div>
+          </div>
+
+          <div class="code-snippet">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=javascript&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal-container%2522%253E%250A%2520%2520%253Ch4%253EModal%2520pop-up%2520container%253C%252Fh4%253E%250A%2520%2520%253Cbutton%2520class%253D%2522button-style-none%2520solid-button%2522%253EGo%2520back%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+          </div>
+          <h3>Live Modal</h3>
+          <div class="modal-container" id="example-modal-interstitial">
+            <div class="modal-items">
+            <h4>Modal pop-up container</h4>
+            <button class="button-style-none solid-button" id="example-modal-close">Go back</button>
+          </div>
+          </div>
+          <div class="component-outputs">
+            <button class="button-style-none solid-button" id="example-modal-CTA">Show Modal</button>
+          </div>
+
+          <div class="code-snippet">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=javascript&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal-container%2522%2520id%253D%2522example-modal-interstitial%2522%253E%250A%2520%2520%253Ch4%253EModal%2520pop-up%2520container%253C%252Fh4%253E%250A%2520%2520%253Cbutton%2520class%253D%2522button-style-none%2520solid-button%2522%2520id%253D%2522example-modal-close%2522%253EGo%2520back%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253Cbutton%2520class%253D%2522button-style-none%2520solid-button%2522%2520id%253D%2522example-modal-CTA%2522%253EShow%2520Modal%253C%252Fbutton%253E"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+          </div>
+          <h3>JavaScript</h3>
+          <div class="code-snippet">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=sharp&l=javascript&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=const%2520modalInterstitial%2520%253D%2520document.querySelector%28%2522%2523example-modal-interstitial%2522%29%253B%250Aconst%2520modalCloseBtn%2520%253D%2520document.querySelector%28%2522%2523example-modal-close%2522%29%253B%250Aconst%2520modalCTA%2520%253D%2520document.querySelector%28%2522%2523example-modal-CTA%2522%29%253B%250A%250AmodalCTA.addEventListener%28%2522click%2522%252C%2520%28%29%253D%253E%257B%250A%2520%2520%2520%2520modalInterstitial.style.display%2520%253D%2520%2522block%2522%253B%250A%2520%2520%2520%2520document.body.style.overflow%2520%253D%2520%2522hidden%2522%250A%257D%29%250A%250AmodalCloseBtn.addEventListener%28%2522click%2522%252C%2520%28%29%253D%253E%257B%250A%2520%2520%2520%2520modalInterstitial.style.display%2520%253D%2520%2522none%2522%253B%250A%2520%2520%2520%2520document.body.style.overflow%2520%253D%2520%2522visible%2522%253B%250A%257D%29"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+          </div>
+        </section>
+
+      </div>
+      <footer class="footer-main">
+        <div class="copy-right">
+          <i class="fal fa-copyright"></i> 2022 UI Inc. All rights reserved.
+        </div>
+        <div class="icon-container">
+          <a class="footer-icon" href="https://github.com/divyanshitomar" target="_blank"><i class="fab fa-github"></i></a>
+          <!-- <a class="footer-icon" href="#" target="_blank"><i class="fab fa-twitter"></i></a> -->
+          <a class="footer-icon" href="http://linkedin.com/in/divyanshitomar26" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      </footer>
+    </div>
+  </body>
+  <script src="doc-css/app.js"></script>
+</html>
+

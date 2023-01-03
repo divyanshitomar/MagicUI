@@ -1,0 +1,92 @@
+.button-output{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.button-output button:nth-child(n){
+    align-self: center;
+}
+.button-style-none{
+    padding: 8px;
+    width: fit-content;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    text-decoration: none;
+}
+.solid-button{
+    background-color: var(--primary-color);
+    color: white;
+}
+.outline-button{
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+.secondary-button{
+    background-color: var(--secondary-color);
+}
+.text-button{
+    color: black;
+    text-decoration: underline solid var(--primary-color);
+    text-decoration-thickness: 1.5pxpx;
+    text-underline-offset: 0.15rem;
+}
+.link-button{
+    font-size: 1rem;
+    background-color: white;
+    color: var(--primary-color);
+}
+.secondary-button:hover{
+    background-color: var(--hover-secondary-color);
+}
+.link-button:hover{
+    color: var(--hover-primary-color);
+    text-decoration: underline solid var(--hover-primary-color);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.2rem;
+}
+.solid-button:hover{
+    background-color: var(--hover-primary-color);
+    border: white;
+}
+.outline-button:hover{
+    background-color: var(--hover-primary-color);
+    color: white;
+}
+.text-button:hover{
+    color: var(--hover-primary-color);
+    text-decoration-color:var(--hover-primary-color) ;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.2rem;
+}
+.home-button-bg{
+    font-size: 1.5rem;
+    color: white;
+    background-color: var(--primary-color);
+    width: 3rem;
+    height: 3rem;
+}
+.home-button{
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+.home-button-text{
+    font-size: 1rem;
+    color: white;
+    background-color: var(--primary-color);
+}
+.home-button-text:hover{
+    background-color: var(--hover-primary-color);
+}
+.home-button:hover{
+    color: var(--hover-primary-color);
+}
+.home-button-bg:hover{
+    background-color: var(--hover-primary-color);
+}
+.button-output > .floating-button{
+    position: static;
+}

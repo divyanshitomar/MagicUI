@@ -1,0 +1,104 @@
+.side-bar-main {
+  grid-area: sidebar;
+  position: sticky;
+  top: 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: fit-content;
+}
+
+.side-bar-main-static {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: calc(100vh - 8rem);
+}
+
+.side-bar-component {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: fit-content;
+}
+
+.text-style-none {
+  text-decoration: none;
+  color: black;
+}
+.component-style {
+  cursor: pointer;
+  font-size: large;
+  list-style: none;
+  margin-top: 1rem;
+}
+.component-style a:hover {
+  color: var(--hover-primary-color);
+}
+.component-style-mobile {
+  list-style: none;
+  cursor: pointer;
+  font-size: large;
+  margin-top: 1rem;
+}
+.component-style-mobile a {
+  color: var(--dark-secondary-color);
+}
+.component-style-mobile a:hover {
+  color: var(--white-color);
+}
+.side-bar-component-mobile {
+  color: var(--white-color);
+  padding-top: 3rem;
+}
+.side-bar-main-mobile-view {
+  top: 0;
+  left: 0;
+  width: 40%;
+  z-index: 50;
+  position: fixed;
+  background-color: var(--black-color);
+  transform: translate(0%, 0);
+  animation-delay: 0s; 
+  animation-play-state: running;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-name: supportanimation;
+  height: 100%;
+  opacity: 1;
+}
+
+@keyframes supportanimation {
+  from {
+    transform: translate(200%, 0);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0%, 0);
+    opacity: 1;
+  }
+}
+
+.close-side-bar {
+  top: 0;
+  right: 0;
+  margin-right: 2rem;
+  margin-top: 2rem;
+  position: absolute;
+}
+.close-side-bar i {
+  color: var(--dark-secondary-color);
+  cursor: pointer;
+  font-size: x-large;
+}
+.close-side-bar i:hover {
+  color: var(--white-color);
+}
+
+@media screen and (max-width: 480px) {
+  .side-bar-main {
+    width: 100%;
+  }
+}

@@ -1,0 +1,136 @@
+.card-vertical{
+    display: flex;
+    flex-direction: column;
+    height: 28.3965rem;
+    width: 14rem;
+}
+
+.box-shadow{
+    box-shadow: 0px 0px 10px 4px rgb(0 0 0 / 5%);
+}
+
+.card-output-vertical{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.card-img{
+    display: flex;
+    width: 100%;
+}
+.badge-card{
+    position: absolute;
+    padding: 0rem 0.3rem;
+    border-radius: 0.1rem;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+.fa-star{
+    
+    height: fit-content;
+    font-size: 0.7rem;
+}
+.text-container{
+    padding-left: 0.5rem;
+}
+.inline-display{
+    padding-right: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+.inline-display .rating-card{
+    gap: 0.3rem;
+    display: flex;
+    margin-right: 0.5rem;
+    color: white;
+    border-radius: 0.1rem;
+    padding: 0 0.5rem;
+    background-color: #388e3c;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.inline-display .rating-card i:nth-child(1){
+    align-self: center;
+}
+.img-responsive{
+    height: auto;
+    width: 100%;
+}
+.card-button-container{
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    padding-left: 0.5rem;
+    padding-bottom: 0.4rem;
+}
+.img-center{
+    width: 10rem;
+    height: 13rem; 
+    padding: 2rem;
+}
+
+
+.secondary-text{
+    color: var(--dark-secondary-color);
+}
+.original-price{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.price-discount{
+    text-decoration: line-through;
+}
+.price-percantage{
+    color: #388e3c;
+}
+.price-card{
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+.text-overlay-component{
+    display: flex;
+    justify-content: center;
+}
+.text-overlay{
+    opacity: 0.2;
+}
+.text-overlay-message{
+    background-color: rgba(128, 128, 128, 0.514);
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+    position: absolute;
+    align-self: center;
+}
+#close-btn{
+    font-size: 2rem;
+    height: fit-content;
+    margin-top: -2rem;
+    cursor: pointer;
+}
+#close-btn:hover{
+    font-size: 2.2rem;
+}
+.close-btn i{
+    border: none;
+    font-size: 2rem;
+}
+
+.horizontal-card-output{
+    width: fit-content;
+    padding-right: 1rem;
+}
+
+.horizontal-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.card-description-container{
+    padding: 0;
+}

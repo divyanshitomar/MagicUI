@@ -1,0 +1,56 @@
+.nav-bar-main {
+  display: flex;
+  grid-area: header;
+  width: 100%;
+  z-index: 1;
+  background-color: var(--white-color);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  height: 5rem;
+}
+.brand-first-logo {
+  color: var(--black-color);
+  font-weight: 700;
+}
+.brand-logo:hover{
+  transition: all 0.6s ease;
+  transform: rotateY(360deg);
+}
+.nav-pills {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20rem;
+}
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 1rem;
+  gap: 1.5rem;
+}
+.contact-links a {
+  font-size: 1.5rem;
+  color: var(--black-color);
+  transition: all 0.2s ease;
+}
+.contact-links a:hover {
+  color: var(--hover-primary-color);
+}
+.nav-button > a {
+    transition: all 0.2s ease;
+}
+.nav-button > a:hover {
+  color: var(--primary-color);
+}
+.hamburger-menu {
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  color: var(--primary-color);
+  margin-left: 0.5rem;
+}
+.hamburger-menu i {
+  cursor: pointer;
+}

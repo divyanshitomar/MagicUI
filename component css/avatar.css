@@ -1,0 +1,41 @@
+.main-avatar-section{
+    border: 2px solid var(--primary-color);
+    border-radius: 5px;
+}
+.avatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.avatar-bg-color{
+    background-color: var(--primary-color);
+}
+.avatar-outputs{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+.avatar-x-large{
+    width: 10rem;
+    height: 10rem;
+    font-size: 5rem;
+}
+.avatar-large{
+    width: 8rem;
+    height: 8rem;
+    font-size: 4rem;
+}
+.avatar-small{
+    width: 6rem;
+    height: 6rem;
+    font-size: 3rem;
+}
+.avatar-x-small{
+    width: 4rem;
+    height: 4rem;
+    font-size: 2rem;
+}
